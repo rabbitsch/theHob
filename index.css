@@ -1,0 +1,149 @@
+
+*{
+font-family: 'Archivo Narrow', sans-serif;
+box-sizing: border-box;
+}
+
+html{
+  width:100%;
+  text-align: center;
+
+}
+
+#title{
+  font-family: 'Permanent Marker', serif;
+	font-size: 8vw;
+	letter-spacing: 4px;
+  background-image: url('https://s3-us-west-1.amazonaws.com/schmitzbucket/Elephant-Stamp-2015033134.png');
+  background-size: 200px 200px;
+  background-repeat: no-repeat;
+  background-position: right 20px;
+  color: forestgreen;
+	width: 245px;
+	margin-top: 32px;
+	padding-top: 7px;
+	padding-left: 5px;
+	top: 255px;
+	left: 40%;
+	
+}
+
+#front{
+
+  font-size: 20px;
+  text-align: center;
+  color:black;
+  text-shadow: 5px 5px 5px whitesmoke;
+  /* background: rgba(255, 255, 255,.60);
+  transition: color 0.25s linear; */
+  border-radius: 2%;
+  /* box-shadow: 1px 1px 5px #777777; */
+ 
+}
+
+#daform{
+  text-align: center;
+}
+
+input {
+  border: none;
+  border-bottom: 3px solid ghostwhite;
+  border-radius: 0px;
+  color: white;
+  -webkit-font-smoothing: antialiased;
+  font-size: 45px;
+  background: none;
+}
+
+button {
+  border: 3px solid forestgreen;
+  padding: 8px 13px;
+  color: ghostwhite;
+  font-size: 45px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  background: rgba(255, 255, 255, 0.25);
+  transition: color 0.25s linear;
+  text-shadow: 0 0 3px #555555;
+  position: relative;
+  border-radius: 0;
+}
+
+button:hover{
+  background: darkblue;
+}
+
+body{
+  
+  background:url('https://s3-us-west-1.amazonaws.com/schmitzbucket/pexels-photo-672358.jpeg')fixed no-repeat;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
+}
+
+
+.youtube{
+  list-style-type: none;
+  border-style: 3px solid white;
+  background: rgba(255, 255, 255, 0.60);
+  transition: color 0.25s linear;
+  /* text-shadow: 0 0 3px #555555; */
+   box-shadow: 1px 1px 5px #777777;
+   /* font-size: 4vw; */
+}
+
+.imgtube{
+  width:90%;
+}
+
+#tubetitle{
+  width: 100%;
+  text-shadow: 5px 5px 5px black;
+  color: white;
+}
+
+#wikicontent{
+  background: rgba(255, 255, 255,.60);
+  transition: color 0.25s linear;
+  box-shadow: 1px 1px 5px #777777;
+  margin-bottom: 20px;
+  /* font-size: 4vw; */
+}
+
+.wikiTitle{
+  text-shadow: 5px 5px 5px black;
+  color: white;
+}
+
+.bookcls{
+   list-style-type: none;
+  border-style: 3px solid white;
+  background: rgba(255, 255, 255, 0.60);
+  transition: color 0.25s linear;
+   box-shadow: 1px 1px 5px #777777;
+   /* font-size: 4vw; */
+}
+
+#booktitle{
+  text-shadow: 5px 5px 5px black;
+  color: white;
+
+}
+
+.no-content-message {
+  text-shadow: 5px 5px 5px black;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.book-cls{
+  text-align: center;
+}
+
+.conHead{
+  font-size: 35px;
+  font-family: 'Permanent Marker', serif;
+}

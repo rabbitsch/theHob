@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang='eng'>
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Learn about potential hobbies">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Hobbist: All things hobby</title>
+    <link href="https://fonts.googleapis.com/css?family=Archivo+Narrow" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+    <link href="grid.css" rel="stylesheet" type="text/css"/>
+    <link href="index.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body id="container">
+    <header role="banner">
+      <div class="row">
+        <div class="col-12" id="topTile">
+          <h1 id="title"> Hobbist</h1>
+        </div>
+      </div>
+        <section class="row" role="region">
+      
+          <div class="col-7 offset-3">
+            <div id="front">
+              <h2>Discover your new passion.. </h2>
+                <p>Type in a potential hobby. Learn about it. Experience it.</p>
+          </div>
+        </section>   
+    </header>
+    <main role="main">
+    <section class="container-form" role="region">
+      <div class="row">
+          <div class="col-7 offset-3">
+            <form action="#" id="daform">
+              <label for="query">
+              </label>
+              <input type="text" placeholder= "Explore" id="js-query">
+              </input>
+            <button class="sub-but" type="submit">Submit
+            </button>
+            </form>
+          </div>
+      </div><!-- /.row -->
+    </section><!-- /.container-form -->
+
+    <div class="no-content" style="display: none" aria-live="assertive">
+      <section class="row" role="region">
+        <div class="col-12">
+          <p class="no-content-message">Unable to find results. Try searching for another hobby.
+        </div>
+      </section>
+    </div>
+    <div class="hobby-contents" style="display: block" aria-live="assertive" role="region">
+      <div class="row">
+        <section id="wikicontent" class="col-10 offset-1" role="region">
+        </section>
+      </div>
+    
+    <section class="row" role="region">
+      <div id="tubecontent" class="col-5 offset-1" >
+        <ul class="youtube"></ul>
+      </div>
+      <div id="bookcontent" class="col-5 offright-1">
+        <ul class="bookcls"></ul>
+      </div>
+    </section>
+    </div>
+    <script
+          src="https://code.jquery.com/jquery-3.2.1.min.js"
+          integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+          crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+    </main>
+  </body>
+</html>
